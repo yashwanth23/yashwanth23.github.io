@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Khand|Monoton|Poiret+One|Rajdhani:400,500');
+
+
+body{
+	background-color: black;
+}
+
+.heading{
+	font-family: 'Monoton', sans-serif;
+	color: white;
+	font-size: 50px;
+}
+
+.heading2{
+	font-family: 'Rajdhani', sans-serif;
+	color: rgb(255, 223, 0);
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	margin-top: 8%;
+}
+
+.box{
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 10px;
+}
+
+.textstyle{
+	font-family: 'Poiret', sans-serif;
+	font-size: 15px;
+	text-align: justify;
+	line-height: 1.6;
+	color: black;
+	padding-top: 1%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 5%;
+}
