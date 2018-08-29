@@ -21,7 +21,7 @@ function setup(){
 }
 
 function draw(){
-	if(flag < 10000){
+	if(flag < 6000){
 		theta = theta % 360;
 		x = x % 200;
 		y = y % 300;
