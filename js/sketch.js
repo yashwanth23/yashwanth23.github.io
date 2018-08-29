@@ -5,10 +5,10 @@ var c;
 /*var img;*/
 
 function setup(){
-	var cnv = createCanvas(windowWidth, windowWidth);
+	var cnv = createCanvas(windowWidth, 6*windowWidth/5);
 	var x1 = 0;
 	var y1 = 0;
-	cnv.position(-30, 150);
+	cnv.position(-20, 150);
 	cnv.style('z-index', '-1');
 	background(0);
 	theta = 0;
@@ -21,19 +21,19 @@ function setup(){
 }
 
 function draw(){
-	if(flag < 6000){
+	if(flag < 10000){
 		theta = theta % 360;
 		x = x % 200;
 		y = y % 300;
 		opac = opac%100;
 		for (var i = 0; i < 9; i+=2) {
-			for (var j = 0; j < 9; j+=2) {
+			for (var j = 0; j < 11; j+=2) {
 				push();
-				translate((i+1)*width/10, (j+1)*height/10);
+				translate((i+1)*width/10, (j+1)*height/12);
 				
-				stroke(random(255), random(255), random(255));
+				stroke(255);
 				strokeWeight(0.5);
-				point(120*sin(((j+2)/2)*x)*cos(((i+2)/2)*y)*sin(theta), 120*cos(((12-j)/2)*x)*sin(((12-i)/2)*y)*cos(theta));
+				point(120*sin(((j+2)/2)*x)*cos(((i+2)/2)*y)*sin(2*theta), 120*cos(((12-j)/2)*x)*sin(((10-i)/2)*y)*cos(theta));
 				//point((120*cos(theta)-10*cos(6*theta))*sin(((j+2)/2)*x)*cos(((i+2)/2)*y), (120*sin(theta) - 10*cos(6*theta))*cos(((i+2)/2)*x)*sin(((j+2)/2)*y));
 				pop();
 			}
