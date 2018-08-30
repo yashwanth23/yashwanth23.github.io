@@ -33,7 +33,7 @@ function draw(){
 				
 				stroke(255);
 				strokeWeight(0.5);
-				point(120*sin(((j+2)/2)*x)*cos(((i+2)/2)*y)*sin(2*theta), 120*cos(((12-j)/2)*x)*sin(((10-i)/2)*y)*cos(theta));
+				point((width/15)*sin(((j+2)/2)*x)*cos(((i+2)/2)*y)*sin(2*theta), (width/15)*cos(((12-j)/2)*x)*sin(((10-i)/2)*y)*cos(theta));
 				//point((120*cos(theta)-10*cos(6*theta))*sin(((j+2)/2)*x)*cos(((i+2)/2)*y), (120*sin(theta) - 10*cos(6*theta))*cos(((i+2)/2)*x)*sin(((j+2)/2)*y));
 				pop();
 			}

@@ -69,3 +69,7 @@ body{
 	grid-template-columns: 40% 60%;
 	padding-bottom: 4%;
 }
+
+img{
+	border-radius: 6px;
+}
