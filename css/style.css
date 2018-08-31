@@ -73,3 +73,22 @@ body{
 img{
 	border-radius: 6px;
 }
+
+ul {
+	list-style: none;
+	margin-left: 25%;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 400;
+	font-size: 1.2vw;
+	color: white;
+	float: left;
+	margin-right: 3vw;
+}
+
+a:hover{
+	transform: scale(1.5);
+}
