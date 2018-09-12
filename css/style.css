@@ -3,7 +3,7 @@
 
 
 body{
-	background-color: black;
+	background-color: rgb(20, 20, 20);
 }
 
 .heading{
@@ -14,27 +14,63 @@ body{
 
 .heading2{
 	font-family: 'Rajdhani', sans-serif;
-	color: rgb(255, 223, 0);
+	color: rgb(255,223,0);
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 .wrapper{
 	display: grid;
-	grid-template-columns: 25% 50% 25%;
+	grid-template-columns: 15% 70% 15%;
 	margin-top: 4%;
 }
 
+.wrapper2{
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	margin-top: 4%;
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards>div{
+	width: 46%;
+	height: 300px;
+	margin: 2%;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+div.cards div img {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cards div:hover{
+	transform: scale(1.05);
+	box-shadow: 5.25px 5.25px 2.1px rgba(0, 0, 0, 0.3);
+}
+
 .headbox{
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(235,201,68, 0.8);
 	border-radius: 6px;
 }
 .box{
-	background-color: rgba(255, 255, 255, 0.8);
-	border-radius: 6px;
-	margin-top: 3%;
-	padding-top: 1%;
+	background-color: rgba(235,201,68, 0.8);
+	border-radius: 5px;
+	padding: 1%;
+}
 
+.subbox{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 3%;
+	margin-bottom: 2%;
 }
 
 .textstyle{
@@ -96,7 +132,7 @@ a:hover{
 .rajdhani{
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: justify;
 	line-height: 1.6;
 	color: black;
@@ -104,3 +140,8 @@ a:hover{
 	padding-right: 5%;
 	padding-bottom: 4%;
 }
+
+p{
+	color: rgb(9,49,69);
+}
+

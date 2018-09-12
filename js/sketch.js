@@ -28,14 +28,14 @@ function draw(){
 		opac = opac%100;
 		for (var i = 0; i < 9; i+=2) {
 			for (var j = 0; j < 11; j+=2) {
-				push();
+				/*push();
 				translate((i+1)*width/10, (j+1)*height/12);
 				
-				stroke(255);
-				strokeWeight(0.5);
+				stroke(235,201,68);
+				strokeWeight(1);
 				point((width/15)*sin(((j+2)/2)*x)*cos(((i+2)/2)*y)*sin(2*theta), (width/15)*cos(((12-j)/2)*x)*sin(((10-i)/2)*y)*cos(theta));
 				//point((120*cos(theta)-10*cos(6*theta))*sin(((j+2)/2)*x)*cos(((i+2)/2)*y), (120*sin(theta) - 10*cos(6*theta))*cos(((i+2)/2)*x)*sin(((j+2)/2)*y));
-				pop();
+				pop();*/
 			}
 		}
 
