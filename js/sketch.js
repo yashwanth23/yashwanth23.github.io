@@ -10,7 +10,7 @@ function setup(){
 	var y1 = 0;
 	cnv.position(-20, 150);
 	cnv.style('z-index', '-1');
-	background(0);
+	background(20);
 	theta = 0;
 	x = 0;
 	y = 0;
