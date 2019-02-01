@@ -329,3 +329,9 @@
 .top-clearance{
 	padding-top: 250px !important;
 }
+
+p strong {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+}
