@@ -265,7 +265,7 @@
 	width: 100%;
     overflow: hidden;
     position: relative;
-}
+}	
 
 .projectitem-img{
 	max-height: 500px;
@@ -311,8 +311,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
+    width: 100%;
+    height: 660px;
     overflow: hidden;
     z-index: -100;
 }
@@ -322,7 +323,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     object-fit: cover;
 }
 
@@ -334,4 +335,32 @@ p strong {
     font-weight: normal;
     font-style: italic;
     font-size: 18px;
+}
+
+p {
+	text-align: justify;
+}
+
+/*------------------------------------------------------------------
+    [Images slideshow]
+------------------------------------------------------------------*/
+
+.mySlides {
+	display: none;
+}
+
+.mySlides1 {
+	display: none;
+}
+
+.mySlides2 {
+	display: none;
+}	
+
+.mySlides3 {
+	display: none;
+}
+
+.screenadjust{
+	top: 100vh !important;
 }
