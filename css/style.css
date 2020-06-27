@@ -17,6 +17,7 @@ Author E-mail: naimlasker@gmail.com
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400,500,500i");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Medium Layout: 1280px */
@@ -89,6 +90,19 @@ button:focus {
     width:100%;
     position:absolute;
 }
+
+.text-formatting {
+  font-family: 'Poppins', sans-serif!important; 
+  font-weight: 300 !important; 
+  font-size: 18px !important;
+}
+
+.heading-formatting{
+  font-family: 'Poppins', sans-serif !important; 
+  font-weight: 400 !important; 
+}
+
+
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
