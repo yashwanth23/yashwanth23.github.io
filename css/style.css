@@ -102,7 +102,11 @@ button:focus {
   font-weight: 400 !important; 
 }
 
-
+.text-formatting-2{
+  font-family: 'Poppins', sans-serif!important; 
+  font-weight: 200 !important; 
+  font-size: 14px !important;
+}
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
